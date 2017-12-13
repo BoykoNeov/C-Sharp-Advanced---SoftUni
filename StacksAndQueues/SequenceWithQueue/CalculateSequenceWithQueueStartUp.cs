@@ -15,7 +15,7 @@ using System.Collections.Generic;
 
 public class CalculateSequenceWithQueue
 {
-    static void Main()
+    public static void Main()
     {
         decimal n = decimal.Parse(Console.ReadLine());
         List<decimal> results = new List<decimal>();
