@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumbers", "ReverseNumbers\ReverseNumbers.csproj", "{22E79F38-67D0-485A-BA9E-A39A6030BFDE}"
 EndProject
@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedParentheses", "Bala
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{D854B399-A1C9-493E-9402-C5920E9AF119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackFibonacci", "StackFibonacci\StackFibonacci.csproj", "{7165063E-A75F-4A63-88B5-EA891091F213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackFibonacci", "StackFibonacci\StackFibonacci.csproj", "{7165063E-A75F-4A63-88B5-EA891091F213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTextEditor", "SimpleTextEditor\SimpleTextEditor.csproj", "{867F87F2-02D3-43CF-98CA-6503E7F88270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTextEditor", "SimpleTextEditor\SimpleTextEditor.csproj", "{867F87F2-02D3-43CF-98CA-6503E7F88270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoisonousPlants", "PoisonousPlants\PoisonousPlants.csproj", "{1E6882FD-5739-4005-A379-9690BB2714AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{867F87F2-02D3-43CF-98CA-6503E7F88270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{867F87F2-02D3-43CF-98CA-6503E7F88270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{867F87F2-02D3-43CF-98CA-6503E7F88270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6882FD-5739-4005-A379-9690BB2714AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6882FD-5739-4005-A379-9690BB2714AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6882FD-5739-4005-A379-9690BB2714AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6882FD-5739-4005-A379-9690BB2714AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
