@@ -8,26 +8,42 @@
     {
         public static void Main()
         {
+            Console.WriteLine(Tester.TestForDifference());
+            Console.ReadLine();
+
             int arrayLength = int.Parse(Console.ReadLine());
             string input = Console.ReadLine();
 
-            if (input.Length > 20000)
-            {
-                Console.WriteLine(GetResult(input, arrayLength));
-            }
-            else
-            {
-                Console.WriteLine(TrivialSolutionUsingLinkedList(input));
-            }
-
-            //  Console.WriteLine(TrivialSolutionUsingQueue(input));
-            //  Console.WriteLine(TrivialSolutionUsingLists(input));
-
+            Console.WriteLine(GetResult(input, arrayLength));
+            Console.WriteLine(TrivialSolutionUsingLinkedList(input));
 
 
         }
 
-        private static int GetResult(string input, int arrayLength)
+            // test data, remove later
+            //28
+            //1 2 3 9 8 7 6 5 4 5 6 7 1 10 9 8 7 1 10 9 8 7 6 5 4 3 2 1
+
+            //5
+            //1 100 90 80 60
+
+            //6
+            //1 100 90 80 60 0
+
+            //7
+            //6 5 8 4 7 10 9
+
+            //20
+            //-1 -2 -3 1 0 1000 0 1900 1800 1700 1600 2000 -1000 3000 2999 2998 29997 100 200 300 
+
+            //debug this
+            //10
+            //-7 -10 4 -8 9 6 -6 9 4 -8
+
+            //and this
+            //4
+            //-5 1 8 -3
+        internal static int GetResult(string input, int arrayLength)
         {
             int[] plants = input.Split().Select(int.Parse).ToArray();
 
@@ -43,9 +59,9 @@
                 {
                     currentLongestSequence = 1;
                     minNumber = plants[i - 1];
-                    i++;
+                  //  i++;
 
-                    while (i < arrayLength && plants[i] > minNumber && plants[i] < plants[i-1])
+                    while (i+1 < arrayLength && plants[i+1] > minNumber && plants[i+1] <= plants[i])
                     {
                         currentLongestSequence++;
                         i++;
@@ -66,7 +82,7 @@
             return longestDiminishingSequence;
         }
 
-        public static int TrivialSolutionUsingLinkedList(string input)
+        internal static int TrivialSolutionUsingLinkedList(string input)
         {
             LinkedList<int> plants = new LinkedList<int>(input.Split().Select(int.Parse));
 
@@ -95,76 +111,6 @@
             }
 
             return cycleCounter - 1;
-        }
-
-        public static int TrivialSolutionUsingQueue(string input)
-        {
-            Queue<int> plants = new Queue<int>(input.Split().Select(int.Parse));
-
-            int cycleCounter = 0;
-            bool plantsDying = true;
-
-            while (plantsDying)
-            {
-                int previousNumber = int.MaxValue;
-                int queueSize = plants.Count;
-                plantsDying = false;
-
-                for (int i = 0; i < queueSize; i++)
-                {
-                    int currentNumber = plants.Dequeue();
-                    if (currentNumber <= previousNumber)
-                    {
-                        plants.Enqueue(currentNumber);
-                    }
-                    else
-                    {
-                        plantsDying = true;
-                    }
-
-                    previousNumber = currentNumber;
-                }
-
-                cycleCounter++;
-            }
-
-            return cycleCounter - 1;
-        }
-
-        public static int TrivialSolutionUsingLists(string input)
-        {
-            List<int> plants = input.Split().Select(int.Parse).ToList();
-
-            int cycleCounter = 0;
-            bool anyPlantsDying = true;
-
-            while (anyPlantsDying)
-            {
-                List<int> nextCyclePlants = new List<int>(plants.Count);
-                nextCyclePlants.Add(plants[0]);
-                anyPlantsDying = false;
-
-                for (int i = 0; i < plants.Count - 1; i++)
-                {
-                    if (plants[i] < plants[i + 1])
-                    {
-                        anyPlantsDying = true;
-                    }
-                    else
-                    {
-                        nextCyclePlants.Add(plants[i + 1]);
-                    }
-                }
-
-                if (anyPlantsDying)
-                {
-                    cycleCounter++;
-                }
-
-                plants = new List<int>(nextCyclePlants);
-            }
-
-            return cycleCounter;
         }
     }
 }
