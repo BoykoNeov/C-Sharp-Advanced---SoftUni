@@ -9,38 +9,33 @@
         public static void Main()
         {
             Console.ReadLine();
-            List<int> plants = Console.ReadLine().Split().Select(int.Parse).ToList();
+            LinkedList<int> plants = new LinkedList<int>(Console.ReadLine().Split().Select(int.Parse));
 
             int cycleCounter = 0;
-            bool anyPlantsDying = true;
+            bool plantsDying = true;
 
-            while (anyPlantsDying)
+            while (plantsDying)
             {
-                List<int> nextCyclePlants = new List<int>(plants.Count);
-                nextCyclePlants.Add(plants[0]);
-                anyPlantsDying = false;
+                plantsDying = false;
+                LinkedListNode<int> currentPlant = plants.Last;
 
-                for (int i = 0; i < plants.Count - 1; i++)
+                while (currentPlant.Previous != null)
                 {
-                    if (plants[i] < plants[i + 1])
+                    LinkedListNode<int> nextNodeToCheck = currentPlant.Previous;
+
+                    if (nextNodeToCheck.Value < currentPlant.Value)
                     {
-                        anyPlantsDying = true;
+                        plantsDying = true;
+                        plants.Remove(currentPlant);
                     }
-                    else
-                    {
-                        nextCyclePlants.Add(plants[i + 1]);
-                    }
+
+                    currentPlant = nextNodeToCheck;
                 }
 
-                if (anyPlantsDying)
-                {
                     cycleCounter++;
-                }
-
-                plants = new List<int>(nextCyclePlants);
             }
 
-            Console.WriteLine(cycleCounter);
+            Console.WriteLine(cycleCounter - 1);
         }
     }
 }
