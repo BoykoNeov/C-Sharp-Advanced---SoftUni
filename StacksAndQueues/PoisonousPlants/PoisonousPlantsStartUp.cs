@@ -9,30 +9,34 @@
         public static void Main()
         {
             Console.ReadLine();
-            LinkedList<int> plants = new LinkedList<int>(Console.ReadLine().Split().Select(int.Parse));
+            Queue<int> plants = new Queue<int>(Console.ReadLine().Split().Select(int.Parse));
 
             int cycleCounter = 0;
             bool plantsDying = true;
 
             while (plantsDying)
             {
+                int previousNumber = int.MaxValue;
+                int queueSize = plants.Count;
                 plantsDying = false;
-                LinkedListNode<int> currentPlant = plants.Last;
 
-                while (currentPlant.Previous != null)
+                for (int i = 0; i < queueSize; i++)
                 {
-                    LinkedListNode<int> nextNodeToCheck = currentPlant.Previous;
+                    int currentNumber = plants.Dequeue();
 
-                    if (nextNodeToCheck.Value < currentPlant.Value)
+                    if (currentNumber <= previousNumber)
+                    {
+                        plants.Enqueue(currentNumber);
+                    }
+                    else
                     {
                         plantsDying = true;
-                        plants.Remove(currentPlant);
                     }
 
-                    currentPlant = nextNodeToCheck;
+                    previousNumber = currentNumber;
                 }
 
-                    cycleCounter++;
+                cycleCounter++;
             }
 
             Console.WriteLine(cycleCounter - 1);
