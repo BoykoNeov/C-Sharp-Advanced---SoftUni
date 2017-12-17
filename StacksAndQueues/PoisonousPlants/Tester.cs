@@ -16,15 +16,15 @@
             while (resultA == resultB)
             {
                 resultA = PoisonousPlantsStartUp.GetResult(string.Join(" ", testArray), testArray.Length);
-                resultB = PoisonousPlantsStartUp.TrivialSolutionUsingLinkedList(string.Join(" ", testArray));
+                resultB = LnkedListSolution.TrivialSolutionUsingLinkedList(string.Join(" ", testArray));
 
-                testArray = randomizeArray(4, rnd, -10, 10);
+                testArray = RandomizeArray(10, rnd, 1, 20);
             }
 
             return (string.Join(" ", testArray));
         }
 
-        private static int[] randomizeArray (int arraySize, Random randomInstance, int minValue, int maxValue)
+        private static int[] RandomizeArray (int arraySize, Random randomInstance, int minValue, int maxValue)
         {
             int[] testArray = new int[arraySize];
 
