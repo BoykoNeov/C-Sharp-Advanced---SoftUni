@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumMatrixElements", "SumMatrixElements\SumMatrixElements.csproj", "{3E36C73C-9A63-4FFF-9799-53E83E9F463A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumMatrixElements", "SumMatrixElements\SumMatrixElements.csproj", "{3E36C73C-9A63-4FFF-9799-53E83E9F463A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSumOf2by2Submatrix", "MaximumSumOf2by2Submatrix\MaximumSumOf2by2Submatrix.csproj", "{6F192C13-D9F2-4F46-8ED4-32F4EE8AF731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupNumbers", "GroupNumbers\GroupNumbers.csproj", "{C306D1C1-57FF-4C18-AE02-D2CA5DA2F0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{491A2F56-7810-4ADA-8AA2-25A35B4BA787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3E36C73C-9A63-4FFF-9799-53E83E9F463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E36C73C-9A63-4FFF-9799-53E83E9F463A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E36C73C-9A63-4FFF-9799-53E83E9F463A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F192C13-D9F2-4F46-8ED4-32F4EE8AF731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F192C13-D9F2-4F46-8ED4-32F4EE8AF731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F192C13-D9F2-4F46-8ED4-32F4EE8AF731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F192C13-D9F2-4F46-8ED4-32F4EE8AF731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C306D1C1-57FF-4C18-AE02-D2CA5DA2F0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C306D1C1-57FF-4C18-AE02-D2CA5DA2F0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C306D1C1-57FF-4C18-AE02-D2CA5DA2F0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C306D1C1-57FF-4C18-AE02-D2CA5DA2F0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491A2F56-7810-4ADA-8AA2-25A35B4BA787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491A2F56-7810-4ADA-8AA2-25A35B4BA787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491A2F56-7810-4ADA-8AA2-25A35B4BA787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491A2F56-7810-4ADA-8AA2-25A35B4BA787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
