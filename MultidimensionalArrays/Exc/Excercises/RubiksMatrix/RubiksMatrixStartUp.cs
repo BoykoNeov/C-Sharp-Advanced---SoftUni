@@ -84,15 +84,15 @@
                     }
                     else
                     {
-                        int[] saughtNumberPositionos = positions[counter];
-                        Console.WriteLine($"Swap ({i}, {j}) with ({saughtNumberPositionos[0]}, {saughtNumberPositionos[1]})");
+                        int[] saughtNumberPositions = (int[])positions[counter].Clone();
+                        Console.WriteLine($"Swap ({i}, {j}) with ({saughtNumberPositions[0]}, {saughtNumberPositions[1]})");
                         matrix[i][j] = counter;
                         positions[counter][0] = i;
                         positions[counter][1] = j;
 
-                        matrix[saughtNumberPositionos[0]][saughtNumberPositionos[1]] = numberAtCurrentPosition;
-                        positions[numberAtCurrentPosition][0] = saughtNumberPositionos[0];
-                        positions[numberAtCurrentPosition][1] = saughtNumberPositionos[1];
+                        matrix[saughtNumberPositions[0]][saughtNumberPositions[1]] = numberAtCurrentPosition;
+                        positions[numberAtCurrentPosition][0] = saughtNumberPositions[0];
+                        positions[numberAtCurrentPosition][1] = saughtNumberPositions[1];
                     }
 
                     counter++;

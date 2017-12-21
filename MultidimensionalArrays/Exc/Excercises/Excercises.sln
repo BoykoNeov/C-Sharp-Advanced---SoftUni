@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "Diago
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2x2SquaresInMatrix", "2x2SquaresInMatrix\2x2SquaresInMatrix.csproj", "{65AB8132-D603-467F-93DA-C98543747C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{FBB4E873-57BF-432A-9502-2788E3FDD221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{FBB4E873-57BF-432A-9502-2788E3FDD221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksMatrix", "RubiksMatrix\RubiksMatrix.csproj", "{D60970D9-C644-415D-95AA-F00ABC8C3265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubiksMatrix", "RubiksMatrix\RubiksMatrix.csproj", "{D60970D9-C644-415D-95AA-F00ABC8C3265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
