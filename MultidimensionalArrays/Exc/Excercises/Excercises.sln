@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximalSum", "MaximalSum\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubiksMatrix", "RubiksMatrix\RubiksMatrix.csproj", "{D60970D9-C644-415D-95AA-F00ABC8C3265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetPractice", "TargetPractice\TargetPractice.csproj", "{75F48018-627F-49B5-A77D-AF791C547D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetPractice", "TargetPractice\TargetPractice.csproj", "{75F48018-627F-49B5-A77D-AF791C547D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{6BCC8DAF-EF56-465B-A6A9-8BEE4FF94494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoBlocks", "LegoBlocks\LegoBlocks.csproj", "{6BCC8DAF-EF56-465B-A6A9-8BEE4FF94494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactiveMutantVampireBunnies", "RadioactiveMutantVampireBunnies\RadioactiveMutantVampireBunnies.csproj", "{A2707FCF-D27F-4040-A536-9FAD9B311414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{6BCC8DAF-EF56-465B-A6A9-8BEE4FF94494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BCC8DAF-EF56-465B-A6A9-8BEE4FF94494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BCC8DAF-EF56-465B-A6A9-8BEE4FF94494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2707FCF-D27F-4040-A536-9FAD9B311414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2707FCF-D27F-4040-A536-9FAD9B311414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2707FCF-D27F-4040-A536-9FAD9B311414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2707FCF-D27F-4040-A536-9FAD9B311414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
