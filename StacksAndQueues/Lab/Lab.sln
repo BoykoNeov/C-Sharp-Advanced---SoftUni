@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalToBinaryConverter", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStrings", "ReverseStrings\ReverseStrings.csproj", "{E1BBAC14-2757-4901-BF2A-98CF2C36F139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{EC6AB5A5-AB74-4A09-A1CD-087EF8C0C737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingBrackets", "MatchingBrackets\MatchingBrackets.csproj", "{EC6AB5A5-AB74-4A09-A1CD-087EF8C0C737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPotato", "HotPotato\HotPotato.csproj", "{C9B9D8B6-FBED-4435-8045-A9180F917CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EC6AB5A5-AB74-4A09-A1CD-087EF8C0C737}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6AB5A5-AB74-4A09-A1CD-087EF8C0C737}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6AB5A5-AB74-4A09-A1CD-087EF8C0C737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B9D8B6-FBED-4435-8045-A9180F917CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B9D8B6-FBED-4435-8045-A9180F917CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B9D8B6-FBED-4435-8045-A9180F917CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B9D8B6-FBED-4435-8045-A9180F917CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
