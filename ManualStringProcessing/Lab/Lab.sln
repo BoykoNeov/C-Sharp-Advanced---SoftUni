@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParseURLs", "ParseURLs\Pars
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParseTags", "ParseTags\ParseTags.csproj", "{0224E2BA-E587-4E33-8E7F-781C8D39D52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialWords", "SpecialWords\SpecialWords.csproj", "{213516FB-85B4-4523-8E66-46737DBE7C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecialWords", "SpecialWords\SpecialWords.csproj", "{213516FB-85B4-4523-8E66-46737DBE7C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenateStrings", "ConcatenateStrings\ConcatenateStrings.csproj", "{44D99C80-92DC-4C98-866D-F9DC220185FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{213516FB-85B4-4523-8E66-46737DBE7C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213516FB-85B4-4523-8E66-46737DBE7C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213516FB-85B4-4523-8E66-46737DBE7C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D99C80-92DC-4C98-866D-F9DC220185FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D99C80-92DC-4C98-866D-F9DC220185FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D99C80-92DC-4C98-866D-F9DC220185FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D99C80-92DC-4C98-866D-F9DC220185FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
