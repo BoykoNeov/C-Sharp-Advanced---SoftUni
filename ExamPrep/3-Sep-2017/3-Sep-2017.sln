@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DangerousFloor", "DangerousFloor\DangerousFloor.csproj", "{3BD7A0AE-085E-4DD0-85A8-0307AC8F3CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMaster", "CryptoMaster\CryptoMaster.csproj", "{17DD2665-F11B-4A6E-BA33-261DBACB67DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMaster", "CryptoMaster\CryptoMaster.csproj", "{17DD2665-F11B-4A6E-BA33-261DBACB67DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyTimes", "GreedyTimes\GreedyTimes.csproj", "{D27FC63C-9C8E-4BCE-9346-B6FB24798907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureMap", "TreasureMap\TreasureMap.csproj", "{E177FC64-835C-4128-8578-6B9C9FDDBA1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E177FC64-835C-4128-8578-6B9C9FDDBA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E177FC64-835C-4128-8578-6B9C9FDDBA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E177FC64-835C-4128-8578-6B9C9FDDBA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E177FC64-835C-4128-8578-6B9C9FDDBA1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
