@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DangerousFloor", "Dangerous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMaster", "CryptoMaster\CryptoMaster.csproj", "{17DD2665-F11B-4A6E-BA33-261DBACB67DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyTimes", "GreedyTimes\GreedyTimes.csproj", "{D27FC63C-9C8E-4BCE-9346-B6FB24798907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{17DD2665-F11B-4A6E-BA33-261DBACB67DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17DD2665-F11B-4A6E-BA33-261DBACB67DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17DD2665-F11B-4A6E-BA33-261DBACB67DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27FC63C-9C8E-4BCE-9346-B6FB24798907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
